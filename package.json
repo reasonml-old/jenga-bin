@@ -1,0 +1,27 @@
+{
+  "name": "jenga-installer-bin",
+  "version": "0.0.0",
+  "description": "Jenga wrapper for jenga",
+  "license": "MIT",
+  "bin": {
+    "jenga": "cli.js"
+  },
+  "scripts": {
+    "postinstall": "node lib/install.js"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "files": [
+    "index.js",
+    "cli.js",
+    "lib"
+  ],
+  "dependencies": {
+    "bin-wrapper": "^3.0.2",
+    "logalot": "^2.0.0"
+  },
+  "devDependencies": {
+    "bin-check": "^3.0.0"
+  }
+}
