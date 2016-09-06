@@ -9,6 +9,30 @@
   "engines": {
     "node": ">=0.10.0"
   },
+  "exportedEnvVars": {
+      "jenga_version": {
+          "global": true,
+          "globalCollisionBehavior": "clobber",
+          "val": "113.33.03"
+      },
+      "PATH": {
+          "global": true,
+          "resolveAsRelativePath": true,
+          "globalCollisionBehavior": "joinPath",
+          "val": "./_build/ocamlfind/bin"
+      },
+      "version": {
+          "global": true,
+          "globalCollisionBehavior": "clobber",
+          "val": "113.33.03"
+      },
+      "FINDLIB": {
+          "global": true,
+          "resolveAsRelativePath": true,
+          "globalCollisionBehavior": "joinPath",
+          "val": "./_build/ocamlfind/lib"
+      }
+  },
   "dependencies": {
     "nopam": "https://github.com/yunxing/nopam.git",
     "ocamlfind": "https://github.com/npm-opam/ocamlfind",
