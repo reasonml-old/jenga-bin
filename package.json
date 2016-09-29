@@ -35,7 +35,7 @@
   },
   "dependencies": {
     "nopam": "https://github.com/yunxing/nopam.git",
-    "ocamlfind": "https://github.com/npm-opam/ocamlfind",
+    "@opam-alpha/ocamlfind": "*",
     "dependency-env": "https://github.com/npm-ml/dependency-env.git"
   }
 }
